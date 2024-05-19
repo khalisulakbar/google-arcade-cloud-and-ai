@@ -23,14 +23,10 @@
 ``` 
     +---------------------------------------+
     |         BIG DATA & ML PRODUCTS        |
-    +-------------------+-------------------+
-                        |                   
-                        v                   
+    +-------------------+-------------------+           
 +---------------------+  +-----------------------+
 |      Compute        |  |       Storage         |
-+---------------------+  +-----------------------+
-                        |                   
-                        v                   
++---------------------+  +-----------------------+             
     +---------------------------------------+
     |        NETWORKING & SECURITY          |
     +---------------------------------------+
@@ -216,11 +212,19 @@ Google offers a range of computing services, which includes:
 5. Cloud Run (Serverless platform)
 
 
-1. Compute Engine
+
+### 1. Compute Engine
 > Compute Engine allows developers to create virtual machines (VMs) that run different operating systems, including multiple flavors of Linux (Debian, Ubuntu, Suse, Red Hat, CoreOS) and Windows Server, on Google infrastructure. Each virtual machine contains the power and functionality of a full-fledged operating system (It can be configured much like physical servers).
 
-2. App Engine
+### 2. App Engine
 > App Engine allows developers to focus on writing code, and not what it runs on. Developers upload their apps to App Engine, and Google Cloud takes care of the rest. The notion of servers, virtual machines, and instances have been abstracted away, with App Engine providing all the compute necessary. Developers don't have to worry about operating systems, web servers, logging, monitoring, load-balancing, system administration, or scaling, as App Engine takes care of all that. Developers only need to focus on building solutions for their organizations or their users.
+
+### 3. Cloud Functions
+> Cloud Function is a piece of a code that runs in response to an event. for example, when an image is uploaded to a bucket, or when image is transformed, etc.
+
+### 4. Google Kubernetes Engine
+
+### 5. Cloud Run
 
 **NOTES**
 ####### 1. When creating a VM, `allow http trafic` -> Select this option in order to access a web server that you install later. Note: This automatically creates a firewall rule to allow HTTP traffic on port 80.
