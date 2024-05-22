@@ -223,8 +223,10 @@ Google offers a range of computing services, which includes:
 > Cloud Function is a piece of a code that runs in response to an event. for example, when an image is uploaded to a bucket, or when image is transformed, etc.
 
 ### 4. Google Kubernetes Engine
+> Google Kubernetes Engine (GKE) provides a managed environment for deploying, managing, and scaling your containerized applications using Google infrastructure.
 
 ### 5. Cloud Run
+> Cloud Run allows developers to run code directly in a containerized environment on Google infrastructure (fully managed compute platform).
 
 **NOTES**
 ####### 1. When creating a VM, `allow http trafic` -> Select this option in order to access a web server that you install later. Note: This automatically creates a firewall rule to allow HTTP traffic on port 80.
